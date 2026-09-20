@@ -28,9 +28,5 @@
     com-invdir;
     com-sequential;
     prechargep = <0x22>;
-
-    /* Normal polarity: 0 = dark, 1 = lit. If the image still comes out
-     * as a lit background with a dark shape, delete the line below and
-     * write `inversion-on;` instead. */
-    /delete-property/ inversion-on;
+    inversion-on;
 };
